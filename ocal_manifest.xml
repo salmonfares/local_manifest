@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+ <manifest>
+        
+ <remote  name="khalvat"
+    fetch="https://github.com/Khalvat-M"
+    revision="11.0" />
 
- <!-- Trees -->
- <project path="device/10or/G" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
- <project path="device/10or/msm8953-common" name="RahulPalXDA/android_device_10or_msm8953-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/10or" name="RahulPalXDA/android_vendor_10or.git" remote="github" revision="master" />
- <project path="kernel/10or/G" name="10orDevs/android_kernel_10or_G-4.9.git" remote="github" revision="lineage-18.1" />
- 
-</manifest>
+ <remote  name="linos"
+    fetch="https://github.com/LineageOS"
+    revision="lineage-18.1" />
+
+    <!--LineageOS -->
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="linos" />
+    <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="linos"/>
+        
+    <!--Device -->
+    <project name="android_device_samsung_klteduos" path="device/samsung/klteduos" remote="khalvat" />
+    <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="khalvat" />
+           
+    <!--Kernel -->
+    <project name="kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="khalvat" />
+    
+    <!--Vendor -->
+    <project name="vendor_samsung" path="vendor/samsung" remote="khalvat" />
+                  
+ </manifest>
