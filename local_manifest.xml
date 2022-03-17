@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/samsung/klteduos" name="salmonfarea/android_device_samsung_klteduos.git" remote="github" revision="lineage-18.1" />
+ <project path="device/samsung/klteduos" name="salmonfares/android_device_samsung_klteduos.git" remote="github" revision="lineage-18.1" />
  <project path="device/samsung/msm8974-common" name="salmonfares/android_device_samsung_msm8974-common.git" remote="github" revision="lineage-18.1" />
  <project path="vendor/samsung" name="salmonfares/android_vendor_samsung/tree/lineage-18.1/klteduos.git" remote="github" revision="lineage-18.1" />
  <project path="kernel/samsung/klteduos" name="salmonfares/android_kernel_samsung_msm8974.git" remote="github" revision="lineage-18.1" />
